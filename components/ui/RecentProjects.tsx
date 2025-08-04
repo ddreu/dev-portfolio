@@ -10,7 +10,13 @@ const RecentProjects = () => {
         A small selection of {""}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div
+        className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-0
+        md:gap-x-24 md:gap-y-0
+        sm:gap-x-12 sm:gap-y-0
+        lg:gap-x-24 lg:gap-y-0  
+        mt-10"
+      >
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
