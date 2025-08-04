@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
@@ -57,32 +57,21 @@ export const BentoGridItem = ({
   const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
-  const timerRef = useRef<number | null>(null);
-  const [confettiKey, setConfettiKey] = useState(0);
 
   const defaultOptions = {
-    loop: false, // play once
-    autoplay: true,
-    animationData,
-    rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
+    loop: copied,
+    autoplay: copied,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
   };
 
-  const handleCopy = async () => {
-    try {
-      await navigator.clipboard.writeText("andrewbucedeguzman@gmail.com");
-      setCopied(true);
-      setConfettiKey((k) => k + 1); // force replay
-      timerRef.current = window.setTimeout(() => setCopied(false), 2000);
-    } catch {
-      // optional: handle error
-    }
+  const handleCopy = () => {
+    const text = "hsu@jsmastery.pro";
+    navigator.clipboard.writeText(text);
+    setCopied(true);
   };
-
-  useEffect(() => {
-    return () => {
-      if (timerRef.current) window.clearTimeout(timerRef.current);
-    };
-  }, []);
 
   return (
     <div
@@ -184,16 +173,18 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              {copied && ( // <-- only show when copied
-                <div className="absolute -bottom-5 right-0">
-                  <Lottie
-                    key={confettiKey}
-                    options={defaultOptions}
-                    height={200}
-                    width={400}
-                  />
-                </div>
-              )}
+              {/* button border magic from tailwind css buttons  */}
+              {/* add rounded-md h-8 md:h-8, remove rounded-full */}
+              {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
+              {/* add handleCopy() for the copy the text */}
+              <div
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
+              >
+                {/* <img src="/confetti.gif" alt="confetti" /> */}
+                <Lottie options={defaultOptions} height={200} width={400} />
+              </div>
 
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
