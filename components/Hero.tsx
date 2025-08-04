@@ -33,7 +33,7 @@ const Hero = () => {
           max-w-80
           "
           >
-            Dynamic Web Magic with Next.js
+            Building Purposeful & Scalable Web Solutions
           </h2>
 
           <TextGenerateEffect
@@ -46,7 +46,8 @@ const Hero = () => {
           md:text-lg lg:text-2xl
           "
           >
-            Hi, I&apos;m Andrew a Web Developer based in Philippines.
+            Hi, I&apos;m Andrew a Web Developer and a Digital Creative based in
+            Philippines.
           </p>
           <a href="#about">
             <MagicButton
