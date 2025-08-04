@@ -140,7 +140,7 @@ export const projects = [
   des: "A modern, responsive marketing website showcasing services, projects, and certifications with a clean layout, strong branding, and mobile-friendly design to boost trust and generate leads.",
   img: "/star-p.svg",
   iconLists: ["/css.svg", "/js.svg", "/html.svg"],
-  link: "",
+  link: "https://github.com/ddreu",
 }
 
 ];
