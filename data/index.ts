@@ -178,12 +178,7 @@ export const projects = [
 //   },
 // ];
 export const testimonials = [
-  {
-    quote:
-      "Andrew delivered on time and on spec. Our load speed improved by 42% and support tickets dropped immediately.",
-    name: "Michael Johnson",
-    title: "Director, AlphaStream Technologies",
-  },
+  
   {
     quote:
       "Andrew has been an invaluable asset to DZCM IT Solutions, both during his internship and as a developer on our Multi-Branch POS System. His skill in tackling complex features, attention to detail, and commitment to delivering high-quality work have exceeded our expectations. He’s not only technically proficient but also a team player who consistently brings fresh ideas to the table.",
@@ -212,13 +207,13 @@ export const testimonials = [
     quote:
       "Reliable, fast, and detail-oriented. He proactively solved edge cases and kept accessibility in mind throughout.",
     name: "James",
-    title: "Founder, Star Roofing & Construction",
+    title: "Star Roofing & Construction",
   },
   {
     quote:
       "Andrew did an amazing job—he's incredibly talented and has excellent communication skills. I'll definitely be working with him again.",
     name: "Romona",
-    title: "Company Landing Page Client",
+    title: "Upwork Client",
   },
   {
     quote:
@@ -259,6 +254,11 @@ export const companies = [
     name: "docker.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
+  },
+  {
+    id: 6,
+    name: "dzcm.",
+    nameImg: "dzcm.svg",
   },
 ];
 

@@ -15,19 +15,34 @@ const Clients = () => {
           direction="right"
           speed="slow"
         />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 opacity-50">
+          {[...Array(4)].map((_, i) => (
+            <div
+              key={i}
+              className="h-10 w-24 rounded-md bg-muted animate-pulse"
+            />
+          ))}
+        </div>
 
-        <div
+        {/* Already displaying InfiniteMovingCards, below it: */}
+        <div className="mt-10 text-center text-muted-foreground italic text-sm">
+          Trusted by clients — more coming soon.
+        </div>
+
+        {/* <div
           className="flex flex-wrap items-center justify-center gap-4
         md:gap-16 max-lg:mt-10 mt-10
         "
         >
           {companies.map(({ id, img, name, nameImg }) => (
             <div key={id} className="flex md:max-w-60 max-w-32 gap-2">
-              <img src={img} alt={name} className="md:w-10 w-5" />
-              <img src={nameImg} alt={name} className="md:w-24 w-20" />
+              {img && <img src={img} alt={name} className="md:w-10 w-5" />}
+              {nameImg && (
+                <img src={nameImg} alt={name} className="md:w-24 w-20" />
+              )}
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
