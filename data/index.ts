@@ -297,9 +297,21 @@ export const workExperience = [
   desc: "Awarded 'Programmer of the Year' upon graduation for delivering high-performance user-facing features with cutting-edge frontend technologies, showcasing strong problem-solving and leadership skills.",
   className: "md:col-span-2",
   thumbnail: "/cert.svg"
-}
-
-
+},
+// {
+//     id: 5,
+//     title: "Tech Support Intern at Law Firm",
+//     desc: "Provided technical support, troubleshooting hardware/software issues, and offering solutions to enhance productivity for clients and internal teams.",
+//     className: "md:col-span-2",
+//     thumbnail: "/tech-support.svg"
+//   },
+//   {
+//     id: 6,
+//     title: "Legal Assistant Intern at Law Firm",
+//     desc: "Assisted in legal research, document preparation, and client communication. Gained hands-on experience with case management and court filings.",
+//     className: "md:col-span-2",
+//     thumbnail: "/legal-assistant.svg"
+//   }
 ];
 
 export const socialMedia = [
