@@ -9,11 +9,14 @@ const Experience = () => {
         My <span className="text-purple"> Work Experience</span>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-        {workExperience.map((card) => (
+        {workExperience.map((card, index) => (
           <Button
             key={card.id}
             borderRadius="1.75rem"
             className="flex-1 text-white border-neutral-200 dark:border-slate-800"
+            // className={`flex-1 text-white border-neutral-200 dark:border-slate-800 ${
+            //   index === workExperience.length - 1 ? "place-self-center" : ""
+            // }`}
             duration={Math.floor(Math.random() * 10000 + 10000)}
           >
             <div

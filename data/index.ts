@@ -291,6 +291,14 @@ export const workExperience = [
   className: "md:col-span-2",
   thumbnail: "/exp4.svg",
 },
+{
+  id: 5,
+  title: "Programmer of the Year",
+  desc: "Awarded 'Programmer of the Year' upon graduation for delivering high-performance user-facing features with cutting-edge frontend technologies, showcasing strong problem-solving and leadership skills.",
+  className: "md:col-span-2",
+  thumbnail: "/cert.svg"
+}
+
 
 ];
 
