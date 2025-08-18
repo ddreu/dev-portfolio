@@ -19,6 +19,7 @@ const Experience = () => {
             // }`}
             duration={Math.floor(Math.random() * 10000 + 10000)}
           >
+            
             <div
               className="flex lg:flex-row flex-col lg:items-center p-3 py-6
             md:p-5 lg:p-10 gap-2
