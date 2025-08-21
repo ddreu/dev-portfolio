@@ -70,7 +70,7 @@ export const gridItems = [
 ];
 
 export const projects = [
-   {
+  {
     id: 1,
     title: "Brainwave",
     des: "A modern, responsive landing page built with React, Tailwind CSS, and Vite, featuring smooth animations and a mobile-first design to showcase products or services professionally.",
@@ -135,14 +135,13 @@ export const projects = [
     link: "https://apple-clone.intrasports.net",
   },
   {
-  id: 9,
-  title: "Star Roofing & Construction",
-  des: "A modern, responsive marketing website showcasing services, projects, and certifications with a clean layout, strong branding, and mobile-friendly design to boost trust and generate leads.",
-  img: "/star-p.svg",
-  iconLists: ["/css.svg", "/js.svg", "/html.svg"],
-  link: "https://github.com/ddreu",
-}
-
+    id: 9,
+    title: "Star Roofing & Construction",
+    des: "A modern, responsive marketing website showcasing services, projects, and certifications with a clean layout, strong branding, and mobile-friendly design to boost trust and generate leads.",
+    img: "/star-p.svg",
+    iconLists: ["/css.svg", "/js.svg", "/html.svg"],
+    link: "https://github.com/ddreu",
+  },
 ];
 
 // export const testimonials = [
@@ -178,7 +177,6 @@ export const projects = [
 //   },
 // ];
 export const testimonials = [
-  
   {
     quote:
       "Andrew has been an invaluable asset to DZCM IT Solutions, both during his internship and as a developer on our Multi-Branch POS System. His skill in tackling complex features, attention to detail, and commitment to delivering high-quality work have exceeded our expectations. He’s not only technically proficient but also a team player who consistently brings fresh ideas to the table.",
@@ -207,7 +205,8 @@ export const testimonials = [
     quote:
       "Reliable, fast, and detail-oriented. He proactively solved edge cases and kept accessibility in mind throughout.",
     name: "James",
-    title: "Star Roofing & Construction",
+    title: "",
+    // title: "Star Roofing & Construction",
   },
   {
     quote:
@@ -222,7 +221,6 @@ export const testimonials = [
     title: "Company Landing Page Client",
   },
 ];
-
 
 export const companies = [
   {
@@ -264,54 +262,54 @@ export const companies = [
 
 export const workExperience = [
   {
-  id: 1,
-  title: "Full Stack Web Developer Intern",
-  desc: "Assisted and Lead in the design and development of full stack web applications using modern technologies for both frontend and backend.",
-  className: "md:col-span-2",
-  thumbnail: "/exp1.svg",
-},
-{
-  id: 2,
-  title: "Full Stack Web Developer - DZCM IT Solutions",
-  desc: "Designed and developed full stack applications, integrating responsive frontends with scalable backend services.",
-  className: "md:col-span-2",
-  thumbnail: "/exp2.svg",
-},
-{
-  id: 3,
-  title: "Freelance Web Developer & Digital Creative",
-  desc: "Delivered custom websites and provided creative services including web design, graphic design, video editing, and digital marketing.",
-  className: "md:col-span-2",
-  thumbnail: "/exp3.svg",
-},
-// {
-//   id: 4,
-//   title: "Lead Frontend Developer",
-//   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-//   className: "md:col-span-2",
-//   thumbnail: "/exp4.svg",
-// },
-{
-  id: 4,
-  title: "Programmer of the Year",
-  desc: "Awarded 'Programmer of the Year' upon graduation for delivering high-performance user-facing features with cutting-edge frontend technologies, showcasing strong problem-solving and leadership skills.",
-  className: "md:col-span-2",
-  thumbnail: "/cert.svg"
-},
-// {
-//     id: 5,
-//     title: "Tech Support Intern at Law Firm",
-//     desc: "Provided technical support, troubleshooting hardware/software issues, and offering solutions to enhance productivity for clients and internal teams.",
-//     className: "md:col-span-2",
-//     thumbnail: "/tech-support.svg"
-//   },
-//   {
-//     id: 6,
-//     title: "Legal Assistant Intern at Law Firm",
-//     desc: "Assisted in legal research, document preparation, and client communication. Gained hands-on experience with case management and court filings.",
-//     className: "md:col-span-2",
-//     thumbnail: "/legal-assistant.svg"
-//   }
+    id: 1,
+    title: "Full Stack Web Developer Intern",
+    desc: "Assisted and Lead in the design and development of full stack web applications using modern technologies for both frontend and backend.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Full Stack Web Developer - DZCM IT Solutions",
+    desc: "Designed and developed full stack applications, integrating responsive frontends with scalable backend services.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "Freelance Web Developer & Digital Creative",
+    desc: "Delivered custom websites and provided creative services including web design, graphic design, video editing, and digital marketing.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+  },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
+  {
+    id: 4,
+    title: "Programmer of the Year",
+    desc: "Awarded 'Programmer of the Year' upon graduation for delivering high-performance user-facing features with cutting-edge frontend technologies, showcasing strong problem-solving and leadership skills.",
+    className: "md:col-span-2",
+    thumbnail: "/cert.svg",
+  },
+  // {
+  //     id: 5,
+  //     title: "Tech Support Intern at Law Firm",
+  //     desc: "Provided technical support, troubleshooting hardware/software issues, and offering solutions to enhance productivity for clients and internal teams.",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/tech-support.svg"
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "Legal Assistant Intern at Law Firm",
+  //     desc: "Assisted in legal research, document preparation, and client communication. Gained hands-on experience with case management and court filings.",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/legal-assistant.svg"
+  //   }
 ];
 
 export const socialMedia = [
@@ -319,18 +317,18 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     name: "GitHub",
-    url: "https://github.com/ddreu"
+    url: "https://github.com/ddreu",
   },
   {
     id: 2,
     img: "/upwork.svg",
     name: "Upwork",
-    url: "https://www.upwork.com/freelancers/~01bbaab8017d5d8822"
+    url: "https://www.upwork.com/freelancers/~01bbaab8017d5d8822",
   },
   {
     id: 3,
     img: "/link.svg",
     name: "Linkedin",
-    url: "https://linkedin.com"
+    url: "https://linkedin.com",
   },
 ];
