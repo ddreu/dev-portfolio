@@ -205,7 +205,7 @@ export const testimonials = [
     quote:
       "Reliable, fast, and detail-oriented. He proactively solved edge cases and kept accessibility in mind throughout.",
     name: "James",
-    title: "",
+    title: "Comapany Landing Page Client",
     // title: "Star Roofing & Construction",
   },
   {
