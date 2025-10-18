@@ -84,7 +84,7 @@ export const projects = [
     des: "Designed and developed a responsive landing page with Tailwind CSS, featuring dark/light theme toggle, custom sections, and optimized performance for all devices.",
     img: "/flexbase-p.svg",
     iconLists: ["/tail.svg", "/js.svg", "/html.svg"],
-    link: "https://ddreu.github.io/landingpage/",
+    link: "https://ddreu.github.io/flexbase/",
   },
   {
     id: 3,
@@ -108,7 +108,7 @@ export const projects = [
     des: "A custom POS for businesses with multiple branches, featuring inventory control, stock transfers, and audit logs for transparent tracking.",
     img: "/pos-p.svg",
     iconLists: ["/php.svg", "/mysql.svg", "/js.svg", "/bootstrap.svg"],
-    link: "https://github.com/ddreu",
+    link: "https://pos.intrasports.net",
   },
   {
     id: 6,
@@ -140,7 +140,7 @@ export const projects = [
     des: "A modern, responsive marketing website showcasing services, projects, and certifications with a clean layout, strong branding, and mobile-friendly design to boost trust and generate leads.",
     img: "/star-p.svg",
     iconLists: ["/css.svg", "/js.svg", "/html.svg"],
-    link: "https://github.com/ddreu",
+    link: "https://ddreu.github.io/StarRoofing/",
   },
 ];
 
