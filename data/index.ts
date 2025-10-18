@@ -92,7 +92,7 @@ export const projects = [
     des: "A full-featured system to manage sports events, teams, schedules, and results for schools and organizations, built with PHP, JavaScript, and MySQL.",
     img: "/ims-p.svg",
     iconLists: ["/php.svg", "/js.svg", "/bootstrap.svg", "/mysql.svg"],
-    link: "https://intrasports.net/",
+    link: "https://ims.intrasports.net/",
   },
   {
     id: 4,
@@ -142,6 +142,14 @@ export const projects = [
     iconLists: ["/css.svg", "/js.svg", "/html.svg"],
     link: "https://ddreu.github.io/StarRoofing/",
   },
+  {
+    id: 9,
+    title: "Grumpy Grampa (Demo Only)",
+    des: "A modern, headless Shopify e-commerce store with a clean, responsive design, fast performance, and mobile-first layout. Features seamless shopping experience, product catalog, and integrations to boost conversions and enhance user experience.",
+    img: "/GG.png",
+    iconLists: ["/next.svg", "/js.svg", "/tail.svg"],
+    link: "https://grumpy-grampa.vercel.app/",
+  },
 ];
 
 // export const testimonials = [
@@ -187,19 +195,19 @@ export const testimonials = [
     quote:
       "Clear communication, clean code, and a smooth handoff. He turned vague ideas into a polished product without scope creep.",
     name: "Sarah Kim",
-    title: "Product Manager, BrightLeaf Labs",
+    title: "Product Manager",
   },
   {
     quote:
       "We migrated to a modern stack with zero downtime. Andrew's full-stack approach cut release time in half.",
     name: "Luis Ortega",
-    title: "CTO, Nova Retail",
+    title: "CTO",
   },
   {
     quote:
       "The new landing page increased demos by 28% in the first month. Andrew handled design and development with equal care.",
     name: "Priya Nair",
-    title: "Head of Growth, Flexbase",
+    title: "Head of Growth",
   },
   {
     quote:
