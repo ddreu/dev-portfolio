@@ -337,6 +337,6 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
     name: "Linkedin",
-    url: "https://linkedin.https://www.linkedin.com/in/andrew-de-guzman-b0b5b1283/",
+    url: "https://www.linkedin.com/in/andrew-de-guzman-b0b5b1283/",
   },
 ];
