@@ -76,7 +76,7 @@ export const projects = [
     des: "A modern, responsive landing page built with React, Tailwind CSS, and Vite, featuring smooth animations and a mobile-first design to showcase products or services professionally.",
     img: "/brainwave-p.svg",
     iconLists: ["/re.svg", "/tail.svg", "/vite.svg"],
-    link: "https://brainwave.intrasports.net/",
+    link: "https://brainwave-bw.netlify.app/",
   },
   {
     id: 2,
@@ -132,7 +132,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://apple-clone.intrasports.net",
+    link: "https://apple-clone-eta-liart.vercel.app/",
   },
   {
     id: 9,
