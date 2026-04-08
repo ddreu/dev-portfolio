@@ -50,7 +50,7 @@ export const gridItems = [
   {
     id: 5,
     // title: "Currently building a JS Animation library",
-    title: "Currently improving full-stack development skills",
+    title: "Continuously improving as a full-stack developer",
     // title: "Turning real-world problems into web solutions",
     description: "The Inside Scoop",
     // description:
