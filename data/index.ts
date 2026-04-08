@@ -49,8 +49,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    // title: "Currently building a JS Animation library",
+    title: "Currently improving full-stack development skills",
+    // title: "Turning real-world problems into web solutions",
     description: "The Inside Scoop",
+    // description:
+    //   "Building practical systems with clean UI, efficient data handling, and scalable backend logic.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -144,11 +148,33 @@ export const projects = [
   },
   {
     id: 9,
-    title: "Grumpy Grampa (Demo Only)",
+    title: "Grumpy Grampa (Demo Store)",
     des: "A modern, headless Shopify e-commerce store with a clean, responsive design, fast performance, and mobile-first layout. Features seamless shopping experience, product catalog, and integrations to boost conversions and enhance user experience.",
     img: "/GG.png",
     iconLists: ["/next.svg", "/js.svg", "/tail.svg"],
     link: "https://grumpy-grampa.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Multi-Branch POS & Inventory System",
+    des: "A scalable multi-branch POS system built to streamline sales, inventory, and reporting across multiple locations. Includes real-time transaction handling, centralized stock management, role-based user access, and performance dashboards to help businesses operate efficiently and make data-driven decisions.",
+    img: "/peninsula.png",
+    iconLists: ["/php.svg", "/js.svg", "/tail.svg", "/mysql.svg"],
+    link: "#",
+  },
+  {
+    id: 11,
+    title: "Waste Segregation Tracker",
+    des: "A data-driven waste segregation tracking system designed for local government units to monitor compliance and collection activities. Includes interactive dashboards, real-time data filtering, automated metrics calculation, and reporting tools to improve visibility and decision-making in waste management operations.",
+    img: "/waste-tracker.png",
+    iconLists: [
+      "/php.svg",
+      "/js.svg",
+      "/bootstrap.svg",
+      "css.svg",
+      "/mysql.svg",
+    ],
+    link: "#",
   },
 ];
 
